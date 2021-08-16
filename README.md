@@ -26,3 +26,11 @@ Runs the tests in the `tests` folder with Jest.
 ```
 yarn test
 ```
+
+### `format`
+
+Formats all files with Prettier.
+
+```
+yarn format
+```

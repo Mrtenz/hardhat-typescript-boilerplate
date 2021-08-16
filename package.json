@@ -8,6 +8,7 @@
   "scripts": {
     "compile": "hardhat compile",
     "test": "jest",
+    "format": "prettier --write --ignore-path .gitignore \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "prepare": "yarn compile && yarn simple-git-hooks"
   },
   "devDependencies": {
