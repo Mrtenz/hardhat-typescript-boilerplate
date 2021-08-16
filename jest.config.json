@@ -1,0 +1,6 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "node",
+  "roots": ["tests"],
+  "setupFilesAfterEnv": ["./jest.setup.ts"]
+}

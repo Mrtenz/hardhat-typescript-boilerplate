@@ -1,0 +1,5 @@
+{
+  "extends": "@tsconfig/recommended/tsconfig.json",
+  "files": ["hardhat.config.ts", "node_modules/@ethereum-waffle/jest/src/types.d.ts"],
+  "include": ["tests"]
+}
